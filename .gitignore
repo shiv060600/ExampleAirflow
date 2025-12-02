@@ -1,0 +1,17 @@
+simple_auth_manager_passwords.json
+airflow_env_linux
+airflow.cfg
+airflow.service
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+logs/*
