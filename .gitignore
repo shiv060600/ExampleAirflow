@@ -2,6 +2,7 @@ simple_auth_manager_passwords.json
 airflow_env_linux
 airflow.cfg
 airflow.service
+airflow.db
 .env
 .env.local
 .env.development.local
