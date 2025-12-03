@@ -12,7 +12,7 @@ default_args = {
 with DAG(
     dag_id = 'send_reminder_remarks_report',
     tags = ['daily','reminder'],
-    schedule = "0 9 * * *",
+    schedule = "30 8 * * *",
     catchup = False,
     default_args = default_args
     ) as daily_remarks_reminder:
