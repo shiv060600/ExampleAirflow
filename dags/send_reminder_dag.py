@@ -14,7 +14,7 @@ monthly_sales_reminder = DAG(
     'remind_about_sales',
     default_args = default_args,
     description = 'email the team to make sure the monthly sales file is in the right place',
-    schedule = '0 9 5 * *',
+    schedule = '0 9 4 * *',
     catchup = False,
     tags = ['monthly','reminder']
 )

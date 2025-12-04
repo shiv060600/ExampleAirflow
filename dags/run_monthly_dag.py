@@ -14,7 +14,7 @@ monthly_dag = DAG(
     'monthly_sales_upload',
     default_args = default_args,
     description = 'monthly upload of ingram sales',
-    schedule = "0 17 5 * *", #monthly on the 5th day at 5pm
+    schedule = "0 17 4 * *", #monthly on the 5th day at 5pm
     tags = ['monthly','sales','ingram'],
     catchup = False
 )
